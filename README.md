@@ -29,24 +29,15 @@ This project analyzes historical weather data for different cities across multip
     pip install -r requirements.txt
     ```
 
-4. Set up environment variables:
-    - Create a `.env` file in the root directory (optional for sensitive keys).
-    - Example environment variables:
-        ```plaintext
-        WEATHER_API_KEY=your_api_key_here
-        ```
-
-5. Run the application:
+4. Run the application:
     ```bash
     uvicorn main:app --reload
     ```
 
-6. Access the application:
-    - Open your browser and go to `http://127.0.0.1:8000/`.
+5. Use the API:
 
-### Testing
+    Open Postman and import the Historical Travel Weather Analysis.postman_collection.json collection to interact with the API endpoints.
+    The collection contains requests for querying weather data and other available API features.
 
-To run the tests:
-```bash
-pytest
+
 
